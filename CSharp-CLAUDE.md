@@ -6,14 +6,16 @@
 - Don't ask unnecessary clarifying questions
 
 ## Code Style
-- Use C# naming conventions (PascalCase for public, _camelCase for private)
-- Use var for obvious types, explicit types otherwise
+- Use C# naming conventions (PascalCase for public, camelCase for private)
+- Always use explicit types, never use var keyword
+- Do not use tuples, create proper classes or structs instead
 - Prefer expression-bodied members for simple methods
 - Use nullable reference types where appropriate
 - Add XML documentation for public APIs
 
 ## Best Practices
-- Follow SOLID principles
+- Follow SOLID principles but don't over-engineer
+- Keep it simple - only add abstractions when truly needed
 - Use dependency injection
 - Prefer async/await over Task.Run for I/O operations
 - Use IDisposable pattern for unmanaged resources
