@@ -6,7 +6,8 @@
 - Save scenes before committing
 
 ## Code Style
-- Use C# naming conventions (PascalCase for public, _camelCase for private fields)
+- Use C# naming conventions (PascalCase for public, camelCase for private fields)
+- Serialized fields do not need underscore prefix (use camelCase, not _camelCase)
 - Use [SerializeField] for private fields exposed in Inspector
 - Add [Header("Section")] to organize Inspector fields
 - Prefer composition over inheritance
