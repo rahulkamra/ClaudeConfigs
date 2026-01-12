@@ -13,6 +13,8 @@
 - Prefer composition over inheritance
 
 ## Unity Best Practices
+- KISS: Keep it simple, implement only what's needed
+- YAGNI: Don't add features for hypothetical future needs
 - Use TryGetComponent instead of GetComponent where appropriate
 - Cache component references in Awake/Start
 - Use object pooling for frequently spawned objects

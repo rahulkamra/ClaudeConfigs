@@ -30,6 +30,10 @@
 - Add validation in OnValidate
 - Use [CreateAssetMenu] for easy asset creation
 
+## Best Practices
+- KISS: Keep it simple, implement only what's needed
+- YAGNI: Don't add features for hypothetical future needs
+
 ## Code Style
 - Use C# naming conventions
 - Add [SerializeField] for private serialized fields

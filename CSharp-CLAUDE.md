@@ -14,6 +14,8 @@
 - Add XML documentation for public APIs
 
 ## Best Practices
+- KISS: Keep it simple, implement only what's needed
+- YAGNI: Don't add features for hypothetical future needs
 - Follow SOLID principles but don't over-engineer
 - Keep it simple - only add abstractions when truly needed
 - Use dependency injection
